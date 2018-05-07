@@ -1,58 +1,67 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\EscapeBuilding.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{657AC271-5BEC-4CE4-977B-727577753146}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\EscapeBuilding.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\EscapeBuildingEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{AB1E697C-B865-4237-80B3-913C1790FB38}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\EscapeBuilding">
-			<UniqueIdentifier>{E5FDCB5F-05AF-41C8-B06B-F4CA0914AEA6}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\EscapeBuilding\EscapeBuilding.Build.cs">
-			<Filter>Source\EscapeBuilding</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\EscapeBuilding\EscapeBuilding.cpp">
-			<Filter>Source\EscapeBuilding</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\EscapeBuilding\EscapeBuilding.h">
-			<Filter>Source\EscapeBuilding</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\EscapeBuilding\EscapeBuildingGameModeBase.cpp">
-			<Filter>Source\EscapeBuilding</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\EscapeBuilding\EscapeBuildingGameModeBase.h">
-			<Filter>Source\EscapeBuilding</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\EscapeBuilding\OpenDoor.cpp">
-			<Filter>Source\EscapeBuilding</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\EscapeBuilding\OpenDoor.h">
-			<Filter>Source\EscapeBuilding</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\EscapeBuilding\PositionReport.cpp">
-			<Filter>Source\EscapeBuilding</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\EscapeBuilding\PositionReport.h">
-			<Filter>Source\EscapeBuilding</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\EscapeBuilding.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{657AC271-5BEC-4CE4-977B-727577753146}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\EscapeBuilding.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\EscapeBuildingEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{AB1E697C-B865-4237-80B3-913C1790FB38}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\EscapeBuilding">
+      <UniqueIdentifier>{E5FDCB5F-05AF-41C8-B06B-F4CA0914AEA6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\EscapeBuilding\EscapeBuilding.Build.cs">
+      <Filter>Source\EscapeBuilding</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\EscapeBuilding\EscapeBuilding.cpp">
+      <Filter>Source\EscapeBuilding</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeBuilding\EscapeBuilding.h">
+      <Filter>Source\EscapeBuilding</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EscapeBuilding\EscapeBuildingGameModeBase.cpp">
+      <Filter>Source\EscapeBuilding</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeBuilding\EscapeBuildingGameModeBase.h">
+      <Filter>Source\EscapeBuilding</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EscapeBuilding\OpenDoor.cpp">
+      <Filter>Source\EscapeBuilding</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeBuilding\OpenDoor.h">
+      <Filter>Source\EscapeBuilding</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EscapeBuilding\PositionReport.cpp">
+      <Filter>Source\EscapeBuilding</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EscapeBuilding\PositionReport.h">
+      <Filter>Source\EscapeBuilding</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\EscapeBuilding\AutoCloseDoor.h">
+      <Filter>Source\EscapeBuilding</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\EscapeBuilding\AutoCloseDoor.cpp">
+      <Filter>Source\EscapeBuilding</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
