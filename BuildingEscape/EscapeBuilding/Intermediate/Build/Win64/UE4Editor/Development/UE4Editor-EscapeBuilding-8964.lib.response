@@ -1,0 +1,22 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-EscapeBuilding-8964.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\Epic Games\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\SourceTree\repos\03_BuildingEscape\BuildingEscape\EscapeBuilding\Intermediate\Build\Win64\UE4Editor\Development\EscapeBuilding\AutoCloseDoor.cpp.obj"
+"E:\SourceTree\repos\03_BuildingEscape\BuildingEscape\EscapeBuilding\Intermediate\Build\Win64\UE4Editor\Development\EscapeBuilding\EscapeBuilding.cpp.obj"
+"E:\SourceTree\repos\03_BuildingEscape\BuildingEscape\EscapeBuilding\Intermediate\Build\Win64\UE4Editor\Development\EscapeBuilding\EscapeBuildingGameModeBase.cpp.obj"
+"E:\SourceTree\repos\03_BuildingEscape\BuildingEscape\EscapeBuilding\Intermediate\Build\Win64\UE4Editor\Development\EscapeBuilding\OpenDoor.cpp.obj"
+"E:\SourceTree\repos\03_BuildingEscape\BuildingEscape\EscapeBuilding\Intermediate\Build\Win64\UE4Editor\Development\EscapeBuilding\PositionReport.cpp.obj"
+"E:\SourceTree\repos\03_BuildingEscape\BuildingEscape\EscapeBuilding\Intermediate\Build\Win64\UE4Editor\Development\EscapeBuilding\AutoCloseDoor.gen.cpp.obj"
+"E:\SourceTree\repos\03_BuildingEscape\BuildingEscape\EscapeBuilding\Intermediate\Build\Win64\UE4Editor\Development\EscapeBuilding\EscapeBuilding.init.gen.cpp.obj"
+"E:\SourceTree\repos\03_BuildingEscape\BuildingEscape\EscapeBuilding\Intermediate\Build\Win64\UE4Editor\Development\EscapeBuilding\EscapeBuildingGameModeBase.gen.cpp.obj"
+"E:\SourceTree\repos\03_BuildingEscape\BuildingEscape\EscapeBuilding\Intermediate\Build\Win64\UE4Editor\Development\EscapeBuilding\OpenDoor.gen.cpp.obj"
+"E:\SourceTree\repos\03_BuildingEscape\BuildingEscape\EscapeBuilding\Intermediate\Build\Win64\UE4Editor\Development\EscapeBuilding\PositionReport.gen.cpp.obj"
+"E:\Epic Games\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\EscapeBuilding\PCLaunch.rc.res"
+"E:\Epic Games\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"E:\SourceTree\repos\03_BuildingEscape\BuildingEscape\EscapeBuilding\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EscapeBuilding-8964.lib"

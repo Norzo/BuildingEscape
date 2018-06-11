@@ -23,6 +23,7 @@ protected:
 	void SetDoorDefault();
 
 	void OpenDoor();
+	void CloseDoor();
 
 public:	
 	// Called every frame
@@ -35,8 +36,13 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	ATriggerVolume* PressurePlate;
-	
 
+	UPROPERTY(EditAnywhere)
+	float CloseDoorDelay = 1.f;
+	
+	float LastDoorOpenTime;
+
+	AActor* Owner; // The owning door
 	AActor* ActorThatOpens;	// Remember pawn inherits from actor
 	AActor* ActorThatCloses;
 	
