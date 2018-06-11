@@ -419,7 +419,9 @@
     <ClInclude Include="..\..\Source\EscapeBuilding\EscapeBuilding.h" />
     <ClCompile Include="..\..\Source\EscapeBuilding\EscapeBuildingGameModeBase.cpp" />
     <ClInclude Include="..\..\Source\EscapeBuilding\EscapeBuildingGameModeBase.h" />
+    <ClCompile Include="..\..\Source\EscapeBuilding\Grabber.cpp" />
     <ClCompile Include="..\..\Source\EscapeBuilding\OpenDoor.cpp" />
+    <ClInclude Include="..\..\Source\EscapeBuilding\Grabber.h" />
     <ClInclude Include="..\..\Source\EscapeBuilding\OpenDoor.h" />
     <ClCompile Include="..\..\Source\EscapeBuilding\PositionReport.cpp" />
     <ClInclude Include="..\..\Source\EscapeBuilding\PositionReport.h" />
